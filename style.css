@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(#0C172A, #75a2e7);
+    background: #0C172A;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
@@ -22,11 +22,11 @@ header {
 }
 
 header > img {
-    width: 200px;
+    width: 250px;
     justify-content: center;
 }
 
-main > h2 {
+main > h1 {
     background-color: #0C172A;
     color: white;
     text-align: center;
@@ -34,7 +34,6 @@ main > h2 {
 
 /* Centraliza e alinha as imagens lado a lado */
 .container {
-    background: #0C172A;
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -75,6 +74,57 @@ main > h2 {
 }
 
 .image-container p{
+    padding-top: 10px;
+    color: white;
+    font-weight:500;
+    font-size: 15px;
+}
+
+.jogos-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.jogos-container h1 {
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+   
+}
+
+.jogos {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;     
+    text-align: center;
+}
+
+.jogos img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.jogos a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.jogos a:hover {
+    color: #75a2e7; 
+}
+
+.jogos p{
     padding-top: 10px;
     color: white;
     font-weight:500;
